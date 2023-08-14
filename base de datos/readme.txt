@@ -1,0 +1,1 @@
+Se debe ejecutar los querys presente en esta carpeta en la base de datos que contiene al moodle

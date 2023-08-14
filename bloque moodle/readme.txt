@@ -1,0 +1,1 @@
+se debe instalar la carpeta monitorc como extension directamentes en el moodle

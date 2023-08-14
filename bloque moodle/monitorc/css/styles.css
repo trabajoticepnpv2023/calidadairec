@@ -1,0 +1,152 @@
+/* Estilos para la paginación */
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination a,
+.pagination span {
+  padding: 8px 12px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #333;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+}
+
+.pagination .current {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+.pagination .disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+/* Estilos para la sección de selección de fechas */
+.date-selection {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.date-selection label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.date-selection input[type="date"],
+.date-selection input[type="time"] {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.date-selection input[type="date"]:focus,
+.date-selection input[type="time"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.date-selection input[type="submit"] {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.date-selection input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.block_monitorc .status {
+    border: 1px solid #000;
+    overflow: hidden;
+    margin: 10px auto;
+    font-weight: bold;
+    color: #00ff00;
+}
+/* Estilos para form en agregar.php */
+.sensor-form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sensor-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sensor-form input[type="text"],
+.sensor-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sensor-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sensor-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la tabla en listar.php */
+.user-list {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    .user-list th, .user-list td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .user-list th {
+        background-color: #f2f2f2;
+    }
+
+    .user-list tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .user-list tr:hover {
+        background-color: #ddd;
+    }
+
+    .user-list a {
+        text-decoration: none;
+        color: #007bff;
+    }
+
+
+
